@@ -1,0 +1,11 @@
+.name{
+    font-size: 60px;
+    color: rgb(235, 73, 126);
+}
+.button{
+    background-color: rgb(235, 73, 126);
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin:20px 20px 20px;
+
+}

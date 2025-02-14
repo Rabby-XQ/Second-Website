@@ -26,6 +26,7 @@
 
 .top {
     background-image: url("image/header-bg.png");
+    width: auto;
 }
 
 .wlcm {
@@ -39,13 +40,16 @@
 
 .top2 {
     background-image: url("image/biography-bg.png");
+    width: auto;
 }
 .work{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .foter{
     background-image: url("image/footer-bg.png");
+    width:auto;
 }
 .photo{
     display: flex;
@@ -57,4 +61,25 @@
     height: 300px;
     width: auto;
     margin: 30px;
+    box-shadow: 10px 10px 40px rgb(112, 146, 207);
+}
+.ft{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.bt2{
+    background-color: rgb(235, 73, 126);
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+
+}
+.ggp{
+    margin-bottom: 40px;
 }

@@ -117,3 +117,25 @@ caption{
 thead{
     color: green;
 }
+.container{
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.food{
+    border: 2px solid red;
+    border-radius: 20 px ;
+    margin: 5px;
+    padding: 10px;
+
+}
+.food img{
+    width: 500px;
+}
+@media(max-width: 500px){
+    .container .food{
+        background-color: antiquewhite;
+    }
+}
